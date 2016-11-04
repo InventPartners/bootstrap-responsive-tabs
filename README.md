@@ -6,7 +6,7 @@ By Invent Partners [http://inventpartners.com]
 > Copyright 2016 Invent Partners
 > http://www.inventpartners.com
 >
-> Licensed under an MIT Style licenses
+> Licensed under an MIT style license
 >
 > http://www.inventpartners.com/mit-license
 
