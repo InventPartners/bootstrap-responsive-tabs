@@ -22,3 +22,5 @@ $(function() {
     $('.nav-tabs').responsiveTabs();
 });
 ```
+
+More details here: [http://www.inventpartners.com/open-source/bootstrap-responsive-tabs]
