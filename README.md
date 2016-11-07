@@ -1,6 +1,8 @@
 # Bootstrap Responsive Tabs
 By Invent Partners [http://inventpartners.com]
 
+Bootstrap Responsive Tabs is a jQuery plugin which enables Bootstrap tab menus to work well in responsive layouts. When horizontal space is limited, the tab menu will display as many menu items as it can in tabs, and then collapse the remaining menu items into a drop down menu at the end of the tab list.
+
 ### LICENSE
 
 > Copyright 2016 Invent Partners
