@@ -37,7 +37,7 @@
                         var dropdownMarkup = '<li class="dropdown responsivetabs-more">'
                         + '<a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>'
                         + '<ul class="dropdown-menu dropdown-menu-right">'
-                        + '</ul>';
+                        + '</ul></li>';
                         $dropdown = $(dropdownMarkup);
                         $element.append($dropdown);
                                 
