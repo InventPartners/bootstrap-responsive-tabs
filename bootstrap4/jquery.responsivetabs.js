@@ -87,10 +87,10 @@
                 if($(this).data('width') <= xPxAvailable) {
 					
 					// fix for bootstrap 4
-					$(this).removeClass('dropdown-item');
+					$(this).removeClass('dropdown-item').addClass('nav-link');
 					
 					
-                    $(this).insertBefore($element.find('.responsivetabs-more')).wrap('<li class="nav-link"></li>'); 
+                    $(this).insertBefore($element.find('.responsivetabs-more')).wrap('<li class="nav-item"></li>'); 
                     xPxAvailable -= $(this).data('width');
                 } else {
                     return false;
