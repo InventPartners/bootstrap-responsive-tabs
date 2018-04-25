@@ -18,6 +18,8 @@ Check out the demos: [Bootstrap 3](https://inventpartners.github.io/bootstrap-re
 ## Requirements
 Bootstrap Responsive Tabs requires [Bootstrap](http://getbootstrap.com/) (CSS and JavaScript) and [jQuery](https://jquery.com/).
 
+**Please note that Bootstrap 4 users should use the files in the /bootstrap4 folder.**
+
 ## Usage
 ```javascript
 $(function() {
