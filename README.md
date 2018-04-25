@@ -13,7 +13,7 @@ Bootstrap Responsive Tabs is a jQuery plugin which enables Bootstrap tab menus t
 > http://www.inventpartners.com/mit-license
 
 ## Demo
-Check out the [demo](https://inventpartners.github.io/bootstrap-responsive-tabs/).
+Check out the demos: [Bootstrap 3](https://inventpartners.github.io/bootstrap-responsive-tabs/) / [Bootstrap 4](https://inventpartners.github.io/bootstrap-responsive-tabs/bootstrap4).
 
 ## Requirements
 Bootstrap Responsive Tabs requires [Bootstrap](http://getbootstrap.com/) (CSS and JavaScript) and [jQuery](https://jquery.com/).
