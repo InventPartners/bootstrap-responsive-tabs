@@ -3,8 +3,6 @@ By Invent Partners [https://inventpartners.com]
 
 Bootstrap Responsive Tabs is a jQuery plugin which enables Bootstrap tab menus to work well in responsive layouts. When horizontal space is limited, the tab menu will display as many menu items as it can in tabs, and then collapse the remaining menu items into a drop down menu at the end of the tab list.
 
-<<<<<<< Updated upstream
-=======
 ---
 
 ## 🚀 Now with Bootstrap 5 & Pure Vanilla JavaScript Support 🎉
@@ -49,7 +47,6 @@ This version was added based on community request:
 
 ---
 
->>>>>>> Stashed changes
 ### LICENSE
 
 > Copyright 2016 Invent Partners
@@ -60,23 +57,20 @@ This version was added based on community request:
 > http://www.inventpartners.com/mit-license
 
 ## Demo
-<<<<<<< Updated upstream
-Check out the demos: [Bootstrap 3](https://inventpartners.github.io/bootstrap-responsive-tabs/) / [Bootstrap 4](https://inventpartners.github.io/bootstrap-responsive-tabs/bootstrap4).
-=======
 Check out the demos: [Bootstrap 3](https://inventpartners.github.io/bootstrap-responsive-tabs/) / [Bootstrap 4](https://inventpartners.github.io/bootstrap-responsive-tabs/bootstrap4) / [Bootstrap 5](https://inventpartners.github.io/bootstrap-responsive-tabs/bootstrap5) / [Vanilla JS](https://inventpartners.github.io/bootstrap-responsive-tabs/vanilla-js).
->>>>>>> Stashed changes
 
 ## Requirements
-Bootstrap Responsive Tabs requires [Bootstrap](http://getbootstrap.com/) (CSS and JavaScript) and [jQuery](https://jquery.com/).
+### Bootstrap 3 or 4:
+> Bootstrap Responsive Tabs requires [Bootstrap](http://getbootstrap.com/) (CSS and JavaScript) and [jQuery](https://jquery.com/).
 
-<<<<<<< Updated upstream
 **Please note that Bootstrap 4 users should use the files in the /bootstrap4 folder.**
-=======
+
 ### Bootstrap 5:
 > Uses Bootstrap 5 and Vanilla JS. No jQuery required.
->>>>>>> Stashed changes
 
-## Usage
+**Please note that Bootstrap 4 users should use the files in the /bootstrap4 folder and Bootstrap 5 users should use the files in the /bootstrap5 folder.**
+
+## Usage (Bootstrap 3 or 4)
 ```javascript
 $(function() {
     $('.nav-tabs').responsiveTabs();

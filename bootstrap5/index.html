@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Responsive Tabs Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="https://github.com/InventPartners/bootstrap-responsive-tabs">
+        <img style="position: absolute; top: 0; right: 0; border: 0;"
+            src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67"
+            alt="Fork me on GitHub">
+    </a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h1 class="my-4">Bootstrap 5 Responsive Tabs Demo</h1>
+                <p class="lead">
+                    Bootstrap 5 Responsive Tabs is a lightweight script that enables <a href="https://getbootstrap.com/docs/5.3/components/navs-tabs/">Bootstrap 5 Tabs</a> 
+                    to behave responsively—resize your browser window to see it in action. Rebuilt without <a href="https://jquery.com/">jQuery</a> for modern web 
+                    development. <a href="http://inventpartners.com">By Invent Partners</a>.
+                </p>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" id="responsiveTabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#yorkminster">York Minster</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#yorkcastle">York Castle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#yorkmuseumgardens">York Museum Gardens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#yorkdungeon">York Dungeon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#theshambles">The Shambles</a>
+                    </li>
+
+                    <!-- Dropdown container -->
+                    <li class="nav-item dropdown d-none" id="moreDropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">...</a>
+                        <ul class="dropdown-menu" id="moreDropdownMenu"></ul>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content pt-3">
+                    <div class="tab-pane fade show active" id="yorkminster">
+                        <h3>York Minster</h3>
+                        <p>The <strong>Cathedral and Metropolitical Church of Saint Peter in York</strong>, commonly
+                            known as <strong>York Minster</strong>, is the cathedral of York, England, and is one of the
+                            largest of its kind in Northern Europe. The minster is the seat of the Archbishop of York, the
+                            second-highest office of the Church of England, and is the mother church for the Diocese of York and the
+                            Province of York. It is run by a dean and chapter, under the Dean of York. The title "minster" is
+                            attributed to churches established in the Anglo-Saxon period as missionary teaching churches, and
+                            serves now as an honorific title. Services in the minster are sometimes regarded as on the High Church
+                            or Anglo-Catholic end of the Anglican continuum.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="yorkcastle">
+                        <h3>York Castle</h3>
+                        <p><strong>York Castle</strong> in the city of York, England, is a fortified complex comprising,
+                            over the last nine centuries, a sequence of castles, prisons, law courts and other buildings on
+                            the south side of the River Foss. The now-ruinous keep of the medieval Norman castle is commonly
+                            referred to as <strong>Clifford's Tower</strong>. Built originally on the orders of William
+                            I to dominate the former Viking city of York, the castle suffered a tumultuous early history
+                            before developing into a major fortification with extensive water defences. After a major explosion
+                            in 1684 rendered the remaining military defences uninhabitable, York Castle continued to be
+                            used as a jail and prison until 1929.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="yorkmuseumgardens">
+                        <h3>York Museum Gardens</h3>
+                        <p>The <strong>York Museum Gardens</strong> are botanic gardens in the centre of York, England,
+                            beside the River Ouse. They cover an area of 10 acres (4.0 ha) of the former grounds of St Mary's
+                            Abbey, and were created in the 1830s by the Yorkshire Philosophical Society along with the
+                            Yorkshire Museum which they contain.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="yorkdungeon">
+                        <h3>York Dungeon</h3>
+                        <p><strong>York Dungeon</strong> is a tourist attraction in York, England. York Dungeon depicts
+                            history of the dungeon using actor led shows, special effects and displays of models and objects.
+                        </p>
+                        <p>The York Dungeons reopened in March 2013 after a period of closure due to severe flooding.</p>
+                    </div>
+                    <div class="tab-pane fade" id="theshambles">
+                        <h3>The Shambles</h3>
+                        <p><strong>The Shambles</strong> (official name <strong>Shambles</strong>) is an old street in
+                            York, England, with overhanging timber-framed buildings, some dating back as far as the fourteenth
+                            century. It was once known as <strong>The Great Flesh Shambles</strong>, probably from the
+                            Anglo-Saxon Fleshammels (literally 'flesh-shelves'), the word for the shelves that butchers used to
+                            display their meat. As recently as 1872 twenty-five butchers' shops were located along the street,
+                            but now none remain.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="responsive-tabs.js"></script>
+
+</body>
+
+</html>
